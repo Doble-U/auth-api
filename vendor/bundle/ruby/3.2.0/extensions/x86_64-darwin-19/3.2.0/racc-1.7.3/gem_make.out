@@ -1,0 +1,18 @@
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+/Users/wilsona/.rvm/rubies/ruby-3.2.0/bin/ruby -I /Users/wilsona/.rvm/rubies/ruby-3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240318-11018-61b2uq sitelibdir\=./.gem.20240318-11018-61b2uq clean
+
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240318-11018-61b2uq sitelibdir\=./.gem.20240318-11018-61b2uq
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240318-11018-61b2uq sitelibdir\=./.gem.20240318-11018-61b2uq install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20240318-11018-61b2uq/racc
+
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240318-11018-61b2uq sitelibdir\=./.gem.20240318-11018-61b2uq clean

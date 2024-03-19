@@ -1,0 +1,18 @@
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+/Users/wilsona/.rvm/rubies/ruby-3.2.0/bin/ruby -I /Users/wilsona/.rvm/rubies/ruby-3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240318-11018-nnoq4p sitelibdir\=./.gem.20240318-11018-nnoq4p clean
+
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240318-11018-nnoq4p sitelibdir\=./.gem.20240318-11018-nnoq4p
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240318-11018-nnoq4p sitelibdir\=./.gem.20240318-11018-nnoq4p install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20240318-11018-nnoq4p
+
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240318-11018-nnoq4p sitelibdir\=./.gem.20240318-11018-nnoq4p clean

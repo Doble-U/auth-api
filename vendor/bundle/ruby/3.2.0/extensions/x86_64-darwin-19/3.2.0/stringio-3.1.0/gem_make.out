@@ -1,0 +1,18 @@
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.0/ext/stringio
+/Users/wilsona/.rvm/rubies/ruby-3.2.0/bin/ruby -I /Users/wilsona/.rvm/rubies/ruby-3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240318-11018-5y8rw9 sitelibdir\=./.gem.20240318-11018-5y8rw9 clean
+
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240318-11018-5y8rw9 sitelibdir\=./.gem.20240318-11018-5y8rw9
+compiling stringio.c
+linking shared-object stringio.bundle
+
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240318-11018-5y8rw9 sitelibdir\=./.gem.20240318-11018-5y8rw9 install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 stringio.bundle ./.gem.20240318-11018-5y8rw9
+
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240318-11018-5y8rw9 sitelibdir\=./.gem.20240318-11018-5y8rw9 clean

@@ -1,0 +1,19 @@
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+/Users/wilsona/.rvm/rubies/ruby-3.2.0/bin/ruby -I /Users/wilsona/.rvm/rubies/ruby-3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240318-11018-5tf3dq sitelibdir\=./.gem.20240318-11018-5tf3dq clean
+
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240318-11018-5tf3dq sitelibdir\=./.gem.20240318-11018-5tf3dq
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240318-11018-5tf3dq sitelibdir\=./.gem.20240318-11018-5tf3dq install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 debug.bundle ./.gem.20240318-11018-5tf3dq/debug
+
+current directory: /Users/wilsona/SandBox/auth-api/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240318-11018-5tf3dq sitelibdir\=./.gem.20240318-11018-5tf3dq clean
