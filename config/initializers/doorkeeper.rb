@@ -11,6 +11,11 @@ Doorkeeper.configure do
     # Put your resource owner authentication logic here.
     # Example implementation:
     #   User.find_by(id: session[:user_id]) || redirect_to(new_user_session_url)
+
+    # resource_owner_authenticator do
+      User.find_by(id: doorkeeper_token.resource_owner_id) || warden.authenticate!(scope: :user)
+    # end
+
   end
 
   # If you didn't skip applications controller from Doorkeeper routes in your application routes.rb
@@ -79,7 +84,7 @@ Doorkeeper.configure do
   # want to use API mode that will skip all the views management and change the way how
   # Doorkeeper responds to a requests.
   #
-  # api_only
+  api_only
 
   # Enforce token request content type to application/x-www-form-urlencoded.
   # It is not enabled by default to not break prior versions of the gem.
